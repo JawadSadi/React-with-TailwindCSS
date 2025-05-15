@@ -1,3 +1,6 @@
+import "./style.css";
+import AdvanceForm from "./components/AdvanceForm";
+
 // import React from "react";
 // import UserList from "./components/UserList";
 
@@ -93,13 +96,21 @@
 // export default App;
 
 // ***** REACT HOOK FORM
-import React from "react";
-import FormApp from "./components/Form";
+// import React from "react";
+// import FormApp from "./components/Form";
+
+// export default function App() {
+//   return (
+//     <div>
+//       <FormApp />
+//     </div>
+//   );
+// }
 
 export default function App() {
   return (
     <div>
-      <FormApp />
+      <AdvanceForm />
     </div>
   );
 }
